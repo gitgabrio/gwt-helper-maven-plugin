@@ -59,6 +59,10 @@
       <name>Temporary Staging Repository</name>
       <url>file://${project.build.directory}/mvn-repo</url>
     </repository>
+    <site>
+      <id>github</id>
+      <url>github.com</url>
+    </site>
   </distributionManagement>
 
   <dependencies>
@@ -129,6 +133,7 @@
           <repositoryName>gwt-helper-maven-plugin</repositoryName>      <!-- github repo name -->
           <repositoryOwner>gitgabrio</repositoryOwner>    <!-- github username  -->
           <merge>true</merge>
+          <url>https://github.com/gitgabrio/gwt-helper-maven-plugin</url>
         </configuration>
         <executions>
           <!-- run site-maven-plugin's 'site' target as part of the build's normal 'deploy' phase -->
