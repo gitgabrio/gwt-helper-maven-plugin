@@ -1,0 +1,6 @@
+{
+  "name": "Gwt Helper Maven Plugin",
+  "tagline": "This plugin contain a goal to include recursively external GWT sources to compilation classpath",
+  "body": "### Authors and Contributors\r\nGabriele Cardosi (@gitgabrio)\r\n\r\n### Support or Contact\r\ngabriele.cardosi@gmail.com\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
