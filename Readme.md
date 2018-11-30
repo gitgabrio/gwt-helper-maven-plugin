@@ -43,3 +43,6 @@ Here's an example of a valid configuration:
           </execution>
           </executions>
         </plugin>
+
+
+You may download jar [here](https://gitgabrio.github.io/gwt-helper-maven-plugin/)
