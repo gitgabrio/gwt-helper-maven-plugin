@@ -7,11 +7,11 @@ so that GWT' Super Dev Mode will listen for changes also in those sources, event
 The main difference with the maven-dependency addSources goal is that this plugin recursively scan a given directory to find
 GWT modules, eventually filtering them based on  **includes/excludes** patterns (optional).
 
-GWT modules are individuated if the directory contains a **src/main/resources/(?)/(?).gwt.xml** file.
+GWT modules are individuated if the directory contains a **src/main/resources/()/().gwt.xml** file.
 
 **includes/excludes** patterns are simple **contains** evaluation on the (full) **gwt.xml** file name; i.e. they are matched if that name **contains** those pattern, **case-sensitive**.
 
-**includes/excludes are mutually exclusive!**. If provide both, the plugin will throw an exception.
+**includes/excludes are mutually exclusive!** If provide both, the plugin will throw an exception.
 
 Moreover, it requires a single parameter to define the folder to scan, so that these parameter may be included as **property** in private user settings,
 to allow different configuration on different machine.
@@ -37,7 +37,7 @@ Here's an example of a valid configuration:
             <goal>add-source</goal>
           </goals>
           <configuration>
-            <excludes>API,Mock</excludes> <!-- will exclude all GWT module who's configuration file name contains API or Mock -->
+            <excludes>API,Mock</excludes> <!-- will exclude all GWT module whose configuration file name contains API or Mock -->
             <rootDirectories>../common-screens,/home/user/Developing/git/parent-big/external-widgets</rootDirectories> <!-- will search inside those two directories -->
           </configuration>
           </execution>
