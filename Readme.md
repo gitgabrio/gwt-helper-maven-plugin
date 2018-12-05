@@ -26,9 +26,9 @@ There are three configuration parameters:
 Here's an example of a valid configuration:
 
     <plugin>
-          <groupId>gitgabrio.github.io</groupId>
+          <groupId>io.github.gitgabrio</groupId>
           <artifactId>gwt-helper-maven-plugin</artifactId>
-          <version>1.0</version>
+          <version>1.1</version>
           <executions>
           <execution>
           <id>add-source</id>
