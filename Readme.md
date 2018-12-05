@@ -26,7 +26,7 @@ There are three configuration parameters:
 Here's an example of a valid configuration:
 
     <plugin>
-          <groupId>net.cardosi.mojo</groupId>
+          <groupId>gitgabrio.github.io</groupId>
           <artifactId>gwt-helper-maven-plugin</artifactId>
           <version>1.0</version>
           <executions>

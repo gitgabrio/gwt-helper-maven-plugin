@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>net.cardosi.mojo</groupId>
+  <groupId>io.github.gitgabrio</groupId>
   <artifactId>gwt-helper-maven-plugin</artifactId>
   <version>1.0</version>
   <packaging>maven-plugin</packaging>
