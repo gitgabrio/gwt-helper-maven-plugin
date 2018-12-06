@@ -28,7 +28,7 @@ Here's an example of a valid configuration:
     <plugin>
           <groupId>io.github.gitgabrio</groupId>
           <artifactId>gwt-helper-maven-plugin</artifactId>
-          <version>1.1</version>
+          <version>1.2</version>
           <executions>
           <execution>
           <id>add-source</id>
